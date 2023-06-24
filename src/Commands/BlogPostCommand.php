@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Yamanjamal\BlogPost\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BlogPostCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'blog-post';
 
     public $description = 'My command';
 
