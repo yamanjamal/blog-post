@@ -18,8 +18,6 @@ class BlogPostServiceProvider extends PackageServiceProvider
         $package
             ->name('blog-post')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_blog-post_table')
             ->hasCommand(BlogPostCommand::class);
     }
 }
