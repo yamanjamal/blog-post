@@ -6,6 +6,6 @@ class BlogPost
 {
     public function getHelloWorld(): string
     {
-        return "hello world";
+        return 'hello world';
     }
 }
